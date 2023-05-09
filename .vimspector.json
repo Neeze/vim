@@ -1,0 +1,25 @@
+{
+  "configurations": {
+    "Python 3": {
+      "adapter": "debugpy",
+      "configuration": {
+        "name": "Python: Current File",
+        "type": "python",
+        "request": "launch",
+        "program": "${file}",
+        "console": "integratedTerminal",
+        "justMyCode": false
+      },
+      "breakpoints": {
+        "python": {
+          "exception": {
+            "caught": false,
+            "uncaught": true
+          }
+        }
+      }
+    }
+  },
+  "default_configuration": "Python 3"
+}
+
